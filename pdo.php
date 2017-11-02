@@ -47,7 +47,7 @@ echo "<table style='border: solid 1px black;'>";
 												         echo $v;
 
 													     }
-                                               echo $stmt->rowCount() . '<br>';
+                                     echo 'The number of rows retrieved are:'.' '. $stmt->rowCount() . '<br>';
 													     }
 													     catch(PDOException $e) {
 													         echo "Error: " . $e->getMessage();
